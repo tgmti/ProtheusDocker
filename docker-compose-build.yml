@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  appserver:
+    image: tgmti/totvs-appserver
+    build: ./appserver
+    env_file: .env
+
+  dbaccess:
+    image: tgmti/totvs-dbaccess
+    build: ./dbaccess
+    env_file: .env
+
+  license:
+    image: tgmti/totvs-license
+
+  database:
+    image: tgmti/totvs-postgres
+    build: ./postgres
+    env_file: .env
+
+volumes:
+  pg_data: {}

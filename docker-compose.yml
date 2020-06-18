@@ -1,42 +1,39 @@
 version: "3.8"
 
-services: 
+services:
   appserver:
     image: tgmti/totvs-appserver
-    build: ./appserver
     ports:
       - "1234:1234"
       - "8080:80"
       - "8081:81"
     env_file: .env
-    volumes: 
+    volumes:
       - type: bind
         source: ./totvs_volume/apo
         target: /totvs/protheus/apo/
       - type: bind
         source: ./totvs_volume/protheus_data
         target: /totvs/protheus_data
-    
+
   dbaccess:
     image: tgmti/totvs-dbaccess
-    build: ./dbaccess
-    ports: 
+    ports:
       - "7890:7890"
     env_file: .env
-      
+
   license:
-    image: docker.totvs.io/dcp/license
-    ports: 
+    image: tgmti/totvs-license
+    ports:
       - "5555:5555"
-      
+
   database:
     image: tgmti/totvs-postgres
-    build: ./postgres
     ports:
       - "5432:5432"
     env_file: .env
-    volumes: 
+    volumes:
         - pg_data:/var/lib/postgresql/data
 
-volumes: 
+volumes:
   pg_data: {}
