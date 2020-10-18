@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   appserver:
-    image: tgmti/totvs-appserver
+    image: tgmti/totvs-appserver-sqlite
     ports:
       - "1234:1234"
       - "8080:80"
@@ -16,24 +16,10 @@ services:
         source: ./totvs_volume/protheus_data
         target: /totvs/protheus_data
 
-  dbaccess:
-    image: tgmti/totvs-dbaccess
-    ports:
-      - "7890:7890"
-    env_file: .env
-
   license:
     image: tgmti/totvs-license
     ports:
       - "5555:5555"
-
-  database:
-    image: tgmti/totvs-postgres
-    ports:
-      - "5432:5432"
-    env_file: .env
-    volumes:
-        - pg_data:/var/lib/postgresql/data
 
 volumes:
   pg_data: {}

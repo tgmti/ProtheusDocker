@@ -22,8 +22,8 @@ RUN DUMB_INIT_SHA256="37f2c1f0372a45554f1b89924fbb134fc24c3756efaedf11e07f599494
 COPY /build /build
 # COPY ./downloads/tttp120.rpo /totvs/protheus/apo/tttp120.rpo
 
-ADD ./downloads/20-05-11-P12_APPSERVER_BUILD-19.3.0.4_LINUX_X64.TAR.GZ /totvs/protheus/bin/appserver
-ADD ./downloads/20-05-13-P12_SMARTCLIENT_WEBAPP_4.6.2_LINUX_X64_191205P.TAR.GZ /totvs/protheus/bin/appserver
+ADD ./downloads/APPSERVER_BUILD.TAR.GZ /totvs/protheus/bin/appserver
+ADD ./downloads/SMARTCLIENT_WEBAPP.TAR.GZ /totvs/protheus/bin/appserver
 
 RUN /build/setup.sh
 

@@ -1,0 +1,1355 @@
+Attaching to protheusdocker_appserver_1
+[36mappserver_1  |[0m + exec /totvs/protheus/bin/appserver/appsrvlinux
+[36mappserver_1  |[0m [../../../interfacetst/interfacetst.cpp:1661][thr:6][val: 0] (Log Client not configured)
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6] [SMARTHEAP] Registering Tasks...
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6] [SMARTHEAP] Version 10.0.1
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [ERROR][SERVER] ###### read: fail to open: / error: 21 try: 0
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m TOTVS: Not appending Date/Time and Thread to console. To enable:
+[36mappserver_1  |[0m [GENERAL]
+[36mappserver_1  |[0m EchoConsoleLogDate=1
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m TOTVS: Not writing asynchronous logs to console.log. To enable:
+[36mappserver_1  |[0m [GENERAL]
+[36mappserver_1  |[0m AsyncConsoleLog=1
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m TOTVS: Appending Date/Time and Thread to console.log. To disable:
+[36mappserver_1  |[0m [GENERAL]
+[36mappserver_1  |[0m ConsoleLogDate=0
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m  *** WARNING!!!! It is recommended to use LockServer Session in this OS.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6] [SMARTHEAP] Registering Tasks...
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6] [SMARTHEAP] Version 10.0.1
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m  *** WARNING!!!! It is recommended to use LockServer Session in this OS.
+[36mappserver_1  |[0m [BTMonitor][WARN ][--] [Thread 6] - bt id [0] - cg id [0] - ec id [0] - MA INIT  - monitor instance not enabled; initializing default monitor instance type [EmptyInstance]...
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] BTMonitor start time: 1602963968.890392 sec
+[36mappserver_1  |[0m [INFO ][SERVER] Loading translate file (/totvs/protheus/bin/appserver/appserver_en_en). 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [WARN ][SERVER] [Thread 6] Monitored Calls - No records found.
+[36mappserver_1  |[0m ***  TOTVS S/A  ***
+[36mappserver_1  |[0m ***  www.totvs.com.br  ***
+[36mappserver_1  |[0m * TOTVS - Build 7.00.191205P - Oct 12 2020 - 04:14:20 
+[36mappserver_1  |[0m * Build: 64 bits
+[36mappserver_1  |[0m * SVN Revision: 28422
+[36mappserver_1  |[0m * Build Version: 19.3.1.0
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Starting (TOTVS)...
+[36mappserver_1  |[0m Please wait...
+[36mappserver_1  |[0m *** SERVER BUILD WITH CLASS INSTANCE RUNNING CHECK
+[36mappserver_1  |[0m *** SERVER BUILD WITH DUAL-STACK SOCKETS FOR IPV6 IMPLEMENTATION
+[36mappserver_1  |[0m *** DEFAULT SOCKET BIND IS IPV4 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ---------------- OS System Info -----------------------------------------------
+[36mappserver_1  |[0m \S	Kernel \r on an \m		
+[36mappserver_1  |[0m Linux version 4.19.128-microsoft-standard (oe-user@oe-host) (gcc version 8.2.0 (GCC)) #1 SMP Tue Jun 23 12:58:10 UTC 2020
+[36mappserver_1  |[0m OS Power Scheme ....: cpu 0 (1/4): Unknown Scheme - 'performance' is recommended
+[36mappserver_1  |[0m OS Power Scheme ....: cpu 1 (2/4): Unknown Scheme - 'performance' is recommended
+[36mappserver_1  |[0m OS Power Scheme ....: cpu 2 (3/4): Unknown Scheme - 'performance' is recommended
+[36mappserver_1  |[0m OS Power Scheme ....: cpu 3 (4/4): Unknown Scheme - 'performance' is recommended
+[36mappserver_1  |[0m -------------------------------------------------------------------------------
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ---------------- OS Memory Info -----------------------------------------------
+[36mappserver_1  |[0m MemTotal:        6406160 kB		MemFree:         1589476 kB		
+[36mappserver_1  |[0m Active:           788196 kB		Inactive:        3782224 kB		
+[36mappserver_1  |[0m SwapTotal:       2097152 kB		SwapFree:        2097152 kB		
+[36mappserver_1  |[0m -------------------------------------------------------------------------------
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ---------------- OS Environment Limits ----------------------------------------
+[36mappserver_1  |[0m Maximum processes .......:  UNLIMITED	Maximum open files ......:  1048576
+[36mappserver_1  |[0m CPU time in seconds .....:  UNLIMITED	Maximum core file size ..:  0.00 MB.
+[36mappserver_1  |[0m Maximum filesize ........:  UNLIMITED	Maximum data size .......:  UNLIMITED
+[36mappserver_1  |[0m Maximum resident size ...:  UNLIMITED	Maximum locked memory ...:  80.08 MB.
+[36mappserver_1  |[0m Address Space (v) limit .:  UNLIMITED	Maximum stack size ......:  8.00 MB.
+[36mappserver_1  |[0m *** WARNING : Maximum stack size TOO HIGH. Adjust ulimit -s to 1024 (1.0 Mb).
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6] *** Connections of type RFS (Remote File System) are ENABLED.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6] APP Virtual Address Allocation Limit .... 32768.00 MB.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6] Memory Monitor Virtual Address LIMIT .... 32768.00  MB.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [WARN ][SERVER] [Thread 9] [17/10/2020 19:47:00] *** The current power scheme in cpu 0 (1/4) is 'Unknown Scheme' - 'performance' is recommended.
+[36mappserver_1  |[0m The current power scheme in cpu 1 (2/4) is 'Unknown Scheme' - 'performance' is recommended.
+[36mappserver_1  |[0m The current power scheme in cpu 2 (3/4) is 'Unknown Scheme' - 'performance' is recommended.
+[36mappserver_1  |[0m The current power scheme in cpu 3 (4/4) is 'Unknown Scheme' - 'performance' is recommended. ***
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [MPPORT] Starting Multi Protocol Port in: port 1234
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [MPPORT] Starting Multi Protocol using default SSL: (totvs_certificate.crt | totvs_certificate_key.pem | -)
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [WARN ][SERVER] Jobs estao desabilitados. Habilite em [General] CanRunJobs=1
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m *** Loading SQLITE DRIVER (wait) ... 
+[36mappserver_1  |[0m *** SQLITE DRIVER 3.29.0 LOADED ***
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m /*-------------------------------------------------------
+[36mappserver_1  |[0m THREAD ERROR ([11], totvstec_, totvs)   17/10/2020   19:47:02
+[36mappserver_1  |[0m variable does not exist __TTSINUSE on RECLOCK(APLIB060.PRW) 13/10/2020 16:57:54 line : 464
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [environment: environment]
+[36mappserver_1  |[0m [thread: 11]
+[36mappserver_1  |[0m [rpodb: SQLITE]
+[36mappserver_1  |[0m [localfiles: CTREE]
+[36mappserver_1  |[0m [remark: ]
+[36mappserver_1  |[0m [threadtype: JobThread]
+[36mappserver_1  |[0m Called from CREATEFIRSTCOMPANY(APLIB100.PRW) 13/10/2020 16:57:54 line : 3843
+[36mappserver_1  |[0m Called from CHKSM0FILE(APLIB100.PRW) 13/10/2020 16:57:54 line : 3754
+[36mappserver_1  |[0m Called from OPENSM0(APLIB100.PRW) 13/10/2020 16:57:54 line : 821
+[36mappserver_1  |[0m Called from FWHTTPPREPARE(FWHTTPPREPARE.PRW) 13/10/2020 16:57:54 line : 24
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Variables in use
+[36mappserver_1  |[0m Publicas
+[36mappserver_1  |[0m   Public 1: CPAISLOC(C) :BRA
+[36mappserver_1  |[0m   Public 2: __CLOGSIGA(C) :NNNNNNN
+[36mappserver_1  |[0m   Public 3: ASX8(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWHTTPPREPARE(FWHTTPPREPARE.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 1: APREPAREIN(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK OPENSM0(APLIB100.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: CEMPRESA(U) : NIL
+[36mappserver_1  |[0m   Param 2: LONLYSM0(L) : .F.
+[36mappserver_1  |[0m   Local 1: CEMPRESA(U) :NIL
+[36mappserver_1  |[0m   Local 2: LONLYSM0(L) :.F.
+[36mappserver_1  |[0m   Local 3: XDRIVER(C) :DBFCDX
+[36mappserver_1  |[0m   Local 4: CARQ(C) :SIGAMAT.EMP
+[36mappserver_1  |[0m   Local 5: CINDICE(U) :NIL
+[36mappserver_1  |[0m   Local 6: LOPENED(L) :.F.
+[36mappserver_1  |[0m   Local 7: LINDB(L) :.T.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK CHKSM0FILE(APLIB100.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK CREATEFIRSTCOMPANY(APLIB100.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 1: CLIBMOD(C) :
+[36mappserver_1  |[0m   Local 2: LPYME(L) :.F.
+[36mappserver_1  |[0m   Local 3: OEXECVIEW(U) :NIL
+[36mappserver_1  |[0m   Local 4: ABUTTONS(U) :NIL
+[36mappserver_1  |[0m   Local 5: NPOSARRAY(U) :NIL
+[36mappserver_1  |[0m   Local 6: ODLG(U) :NIL
+[36mappserver_1  |[0m   Local 7: OOPTDLG(U) :NIL
+[36mappserver_1  |[0m   Local 8: AOPTIONS(A) :
+[36mappserver_1  |[0m   Local 9: ADETAILS(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK RECLOCK(APLIB060.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: CALIAS(C) : SM0
+[36mappserver_1  |[0m   Param 2: LADD(L) : .T.
+[36mappserver_1  |[0m   Param 3: LDELETE(U) : NIL
+[36mappserver_1  |[0m   Param 4: LSOFT(L) : .F.
+[36mappserver_1  |[0m   Param 5: LINJOB(L) : .F.
+[36mappserver_1  |[0m   Local 1: CALIAS(C) :SM0
+[36mappserver_1  |[0m   Local 2: LADD(L) :.T.
+[36mappserver_1  |[0m   Local 3: LDELETE(U) :NIL
+[36mappserver_1  |[0m   Local 4: LSOFT(L) :.F.
+[36mappserver_1  |[0m   Local 5: LINJOB(L) :.F.
+[36mappserver_1  |[0m   Local 6: LRET(L) :.T.
+[36mappserver_1  |[0m   Local 7: I(U) :NIL
+[36mappserver_1  |[0m   Local 8: XBUFFER(U) :NIL
+[36mappserver_1  |[0m   Local 9: ASTACK(A) :
+[36mappserver_1  |[0m   Local 10: LEOF(L) :.T.
+[36mappserver_1  |[0m   Local 11: CMNT(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Files
+[36mappserver_1  |[0m   **SYS_COMPANY; Rdd:SQLITE; Alias:SM0; Filter :; Recno:1; Total Recs:0; Order:1
+[36mappserver_1  |[0m      Index (0) :**sys_company1  M0_CODIGO+M0_CODFIL
+[36mappserver_1  |[0m      Index (1) :sys_company2  M0_NOME+M0_FILIAL
+[36mappserver_1  |[0m     Field 1: M0_CODIGO(C) :  
+[36mappserver_1  |[0m     Field 2: M0_CODFIL(C) :            
+[36mappserver_1  |[0m     Field 3: M0_FILIAL(C) :                                         
+[36mappserver_1  |[0m     Field 4: M0_NOME(C) :                                        
+[36mappserver_1  |[0m     Field 5: M0_NOMECOM(C) :                                                            
+[36mappserver_1  |[0m     Field 6: M0_TEL(C) :              
+[36mappserver_1  |[0m     Field 7: M0_FAX(C) :              
+[36mappserver_1  |[0m     Field 8: M0_EQUIP(C) : 
+[36mappserver_1  |[0m     Field 9: M0_TPINSC(N) :0
+[36mappserver_1  |[0m     Field 10: M0_CGC(C) :              
+[36mappserver_1  |[0m     Field 11: M0_CEI(C) :              
+[36mappserver_1  |[0m     Field 12: M0_INSC(C) :              
+[36mappserver_1  |[0m     Field 13: M0_INSCM(C) :                         
+[36mappserver_1  |[0m     Field 14: M0_ENDENT(C) :                                                            
+[36mappserver_1  |[0m     Field 15: M0_COMPENT(C) :                         
+[36mappserver_1  |[0m     Field 16: M0_BAIRENT(C) :                                   
+[36mappserver_1  |[0m     Field 17: M0_CIDENT(C) :                                                            
+[36mappserver_1  |[0m     Field 18: M0_ESTENT(C) :  
+[36mappserver_1  |[0m     Field 19: M0_CEPENT(C) :        
+[36mappserver_1  |[0m     Field 20: M0_CODMUN(C) :       
+[36mappserver_1  |[0m     Field 21: M0_ENDCOB(C) :                                                            
+[36mappserver_1  |[0m     Field 22: M0_COMPCOB(C) :                         
+[36mappserver_1  |[0m     Field 23: M0_BAIRCOB(C) :                                   
+[36mappserver_1  |[0m     Field 24: M0_CIDCOB(C) :                                                            
+[36mappserver_1  |[0m     Field 25: M0_ESTCOB(C) :  
+[36mappserver_1  |[0m     Field 26: M0_CEPCOB(C) :        
+[36mappserver_1  |[0m     Field 27: M0_PRODRUR(C) : 
+[36mappserver_1  |[0m     Field 28: M0_FPAS(C) :    
+[36mappserver_1  |[0m     Field 29: M0_NATJUR(C) :    
+[36mappserver_1  |[0m     Field 30: M0_DTBASE(C) :  
+[36mappserver_1  |[0m     Field 31: M0_CNAE(C) :       
+[36mappserver_1  |[0m     Field 32: M0_ACTRAB(C) :        
+[36mappserver_1  |[0m     Field 33: M0_NUMPROP(N) :0
+[36mappserver_1  |[0m     Field 34: M0_MODEND(C) : 
+[36mappserver_1  |[0m     Field 35: M0_MODINSC(C) : 
+[36mappserver_1  |[0m     Field 36: M0_CAUSA(C) : 
+[36mappserver_1  |[0m     Field 37: M0_INSCANT(C) :              
+[36mappserver_1  |[0m     Field 38: M0_TPESTAB(C) :  
+[36mappserver_1  |[0m     Field 39: M0_TEL_IMP(C) :                      
+[36mappserver_1  |[0m     Field 40: M0_FAX_IMP(C) :                      
+[36mappserver_1  |[0m     Field 41: M0_IMP_CON(C) : 
+[36mappserver_1  |[0m     Field 42: M0_TEL_PO(C) :                      
+[36mappserver_1  |[0m     Field 43: M0_FAX_PO(C) :                      
+[36mappserver_1  |[0m     Field 44: M0_CODZOSE(C) :            
+[36mappserver_1  |[0m     Field 45: M0_DESZOSE(C) :                              
+[36mappserver_1  |[0m     Field 46: M0_COD_ATV(C) :     
+[36mappserver_1  |[0m     Field 47: M0_INS_SUF(C) :            
+[36mappserver_1  |[0m     Field 48: M0_NIRE(C) :                         
+[36mappserver_1  |[0m     Field 49: M0_DTRE(D) :00/00/00
+[36mappserver_1  |[0m     Field 50: M0_DSCCNA(C) :                                                            
+[36mappserver_1  |[0m     Field 51: M0_ASSPAT1(C) :   
+[36mappserver_1  |[0m     Field 52: M0_ASSPAT2(C) :   
+[36mappserver_1  |[0m     Field 53: M0_ASSPAT3(C) :   
+[36mappserver_1  |[0m     Field 54: M0_RNTRC(C) :        
+[36mappserver_1  |[0m     Field 55: M0_DTRNTRC(D) :00/00/00
+[36mappserver_1  |[0m     Field 56: M0_SEQUENC(C) :          
+[36mappserver_1  |[0m     Field 57: M0_DOCSEQ(N) :0
+[36mappserver_1  |[0m     Field 58: M0_EMERGEN(C) :        
+[36mappserver_1  |[0m     Field 59: M0_LIBMOD(C) :                                                                                                 
+[36mappserver_1  |[0m     Field 60: M0_DTAUTOR(D) :00/00/00
+[36mappserver_1  |[0m     Field 61: M0_EMPB2B(C) :                              
+[36mappserver_1  |[0m     Field 62: M0_CAIXA(C) :     
+[36mappserver_1  |[0m     Field 63: M0_LICENSA(C) :                                                                
+[36mappserver_1  |[0m     Field 64: M0_CORPKEY(C) :                
+[36mappserver_1  |[0m     Field 65: M0_CHKSUM(N) :0
+[36mappserver_1  |[0m     Field 66: M0_DTVLD(D) :00/00/00
+[36mappserver_1  |[0m     Field 67: M0_PSW(C) :        
+[36mappserver_1  |[0m     Field 68: M0_CTPSW(C) :        
+[36mappserver_1  |[0m     Field 69: M0_INTCTRL(C) :                  
+[36mappserver_1  |[0m     Field 70: M0_PSWSTRT(C) :                               
+[36mappserver_1  |[0m     Field 71: M0_CNES(C) :       
+[36mappserver_1  |[0m     Field 72: M0_SIZEFIL(N) :0
+[36mappserver_1  |[0m     Field 73: M0_LEIAUTE(C) :            
+[36mappserver_1  |[0m     Field 74: M0_PICTURE(C) :                                                                                                                                                                                                                                                               
+[36mappserver_1  |[0m     Field 75: M0_STATUS(C) : 
+[36mappserver_1  |[0m   SYS_COMPANY_CFG; Rdd:SQLITE; Alias:XX8; Filter :; Recno:1; Total Recs:0; Order:1
+[36mappserver_1  |[0m      Index (0) :**sys_company_cfg1  XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m      Index (1) :sys_company_cfg2  XX8_GRPEMP+XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m      Index (2) :sys_company_cfg3  XX8_GRPEMP+XX8_EMPR+XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m      Index (3) :sys_company_cfg4  XX8_GRPEMP+XX8_EMPR+XX8_UNID+XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m     Field 1: XX8_TIPO(C) : 
+[36mappserver_1  |[0m     Field 2: XX8_GRPEMP(C) :            
+[36mappserver_1  |[0m     Field 3: XX8_EMPR(C) :            
+[36mappserver_1  |[0m     Field 4: XX8_UNID(C) :            
+[36mappserver_1  |[0m     Field 5: XX8_CODIGO(C) :            
+[36mappserver_1  |[0m     Field 6: XX8_DESCRI(C) :                                        
+[36mappserver_1  |[0m     Field 7: XX8_SIZE(N) :0
+[36mappserver_1  |[0m     Field 8: XX8_LEIAUT(C) :            
+[36mappserver_1  |[0m   SYS_COMPANY_CFGIT; Rdd:SQLITE; Alias:XX9; Filter :; Recno:1; Total Recs:0; Order:1
+[36mappserver_1  |[0m      Index (0) :**sys_company_cfgit1  XX9_CODIGO+XX9_SEQ+XX9_SIGLA+XX9_ORDEM
+[36mappserver_1  |[0m      Index (1) :sys_company_cfgit2  XX9_CODIGO+XX9_SIGLA+XX9_ORDEM
+[36mappserver_1  |[0m     Field 1: XX9_CODIGO(C) :  
+[36mappserver_1  |[0m     Field 2: XX9_SEQ(C) :  
+[36mappserver_1  |[0m     Field 3: XX9_SIGLA(C) : 
+[36mappserver_1  |[0m     Field 4: XX9_ORDEM(C) :  
+[36mappserver_1  |[0m     Field 5: XX9_PICT(C) :                                                                                                                        
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Stack : 
+[36mappserver_1  |[0m variable does not exist __TTSINUSE on RECLOCK(APLIB060.PRW) 13/10/2020 16:57:54 line : 464
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [environment: environment]
+[36mappserver_1  |[0m [thread: 11]
+[36mappserver_1  |[0m [rpodb: SQLITE]
+[36mappserver_1  |[0m [localfiles: CTREE]
+[36mappserver_1  |[0m [remark: ]
+[36mappserver_1  |[0m [threadtype: JobThread]
+[36mappserver_1  |[0m Called from CREATEFIRSTCOMPANY(APLIB100.PRW) 13/10/2020 16:57:54 line : 3843
+[36mappserver_1  |[0m Called from CHKSM0FILE(APLIB100.PRW) 13/10/2020 16:57:54 line : 3754
+[36mappserver_1  |[0m Called from OPENSM0(APLIB100.PRW) 13/10/2020 16:57:54 line : 821
+[36mappserver_1  |[0m Called from FWHTTPPREPARE(FWHTTPPREPARE.PRW) 13/10/2020 16:57:54 line : 24
+[36mappserver_1  |[0m -------------------------------------------------------*/
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread    11] JOB Thread finished [-FWHTTPPREPARE]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m *** Loading SQLITE DRIVER (wait) ... 
+[36mappserver_1  |[0m *** SQLITE DRIVER 3.29.0 LOADED ***
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m /*-------------------------------------------------------
+[36mappserver_1  |[0m THREAD ERROR ([6], totvstec, totvs)   17/10/2020   19:47:03
+[36mappserver_1  |[0m variable is not array - Type [U] on _REST_INIT(FWRESTHANDLER.PRW) 13/10/2020 16:57:54 line : 61
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [environment: ENVIRONMENT]
+[36mappserver_1  |[0m [thread: 6]
+[36mappserver_1  |[0m [rpodb: SQLITE]
+[36mappserver_1  |[0m [localfiles: CTREE]
+[36mappserver_1  |[0m [remark: ]
+[36mappserver_1  |[0m [threadtype: JobThread]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Variables in use
+[36mappserver_1  |[0m Publicas
+[36mappserver_1  |[0m   Public 1: CPAISLOC(C) :BRA
+[36mappserver_1  |[0m   Public 2: ASX8(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK _REST_INIT(FWRESTHANDLER.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Private 1: OVDRCTRL(O) :O
+[36mappserver_1  |[0m   Local 1: OCFG(J) :J
+[36mappserver_1  |[0m   Local 2: AEMP(U) :NIL
+[36mappserver_1  |[0m   Local 3: ACLASS(U) :NIL
+[36mappserver_1  |[0m   Local 4: AALLEMP(U) :NIL
+[36mappserver_1  |[0m   Local 5: ATHREADS(U) :NIL
+[36mappserver_1  |[0m   Local 6: CENV(C) :environment
+[36mappserver_1  |[0m   Local 7: CID(U) :NIL
+[36mappserver_1  |[0m   Local 8: CROOTPATH(C) :/totvs/protheus_data/
+[36mappserver_1  |[0m   Local 9: CSERVER(U) :NIL
+[36mappserver_1  |[0m   Local 10: CLOCATION(U) :NIL
+[36mappserver_1  |[0m   Local 11: NX(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Files
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Stack : 
+[36mappserver_1  |[0m variable is not array - Type [U] on _REST_INIT(FWRESTHANDLER.PRW) 13/10/2020 16:57:54 line : 61
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [environment: ENVIRONMENT]
+[36mappserver_1  |[0m [thread: 6]
+[36mappserver_1  |[0m [rpodb: SQLITE]
+[36mappserver_1  |[0m [localfiles: CTREE]
+[36mappserver_1  |[0m [remark: ]
+[36mappserver_1  |[0m [threadtype: JobThread]
+[36mappserver_1  |[0m -------------------------------------------------------*/
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread     0] JOB Thread finished [-]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [ERROR][SERVER] [MPPORT] Error on exec Rest Server function. Invalid REST Port. Error: -107
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [ERROR][SERVER] [MPPORT] Error on exec Rest Server function. Error: (-107 | U | ) ...
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [FATAL][SERVER] [MPPORT] [17/10/2020 19:47:03][Thread 6] *** FAIL TO START REST SERVER ***
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [FATAL][SERVER] [17/10/2020 19:47:03]
+[36mappserver_1  |[0m [Thread 6] ******************************************
+[36mappserver_1  |[0m *** FAILED TO START APPLICATION SERVER ***
+[36mappserver_1  |[0m ******************************************
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6] Application Server (UNIX version) in shutdown....
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6][17/10/2020 19:47:03] Application SHUTDOWN in progress...
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m -------------- APO Map List ---------------
+[36mappserver_1  |[0m Users [02] MAP [0.00 MB.] APO [/totvs/protheus/apo/tttp120.rpo] SYM [2.21 MB.] IDCACHE [0.13 MB.] CODECACHE [3.88 MB.]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ----------- Total Thread Count ------------
+[36mappserver_1  |[0m                  Total Threads ... 5
+[36mappserver_1  |[0m                         Thread ... 1
+[36mappserver_1  |[0m                      JobThread ... 2
+[36mappserver_1  |[0m                      RPCThread ... 2
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ----------- Detailed Thread List ----------
+[36mappserver_1  |[0m [        16][       0.000 Kb]	totvstec_	totvs		FWERRSNOWDEN	ENVIRONMENT	Sat Oct 17 19:47:03 2020	00:00:00	0	10478		[]
+[36mappserver_1  |[0m [        13][       0.000 Kb]	totvstec__	totvs		FWERRSNOWDEN	environment	Sat Oct 17 19:47:02 2020	00:00:01	0	2416		[]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [     TOTAL][       0.000 Kb][Num: 2         ]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ----------- Detailed Process List ---- (*1)
+[36mappserver_1  |[0m [         9][       0.000 Kb][         Thread][ tMemoryMonitor][]
+[36mappserver_1  |[0m [        14][       0.000 Kb][      RPCThread][     tRPCThread][]
+[36mappserver_1  |[0m [        17][       0.000 Kb][      RPCThread][     tRPCThread][]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [     TOTAL][       0.000 Kb][Num: 3         ][               ][]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ----------- Global List Info --------------
+[36mappserver_1  |[0m                  IMAP Glb List ...        0.000 kB. Count 0
+[36mappserver_1  |[0m              Variable Glb List ...      451.922 kB. Count 930
+[36mappserver_1  |[0m               Session Glb List ...        0.000 kB. Count 0
+[36mappserver_1  |[0m                    SymTab List ...       12.271 kB. Count 1227 Hits 6049
+[36mappserver_1  |[0m                   TCP Glb List ... Count 0
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ----------- Global Table and Hash Map Info --------------
+[36mappserver_1  |[0m                 Global Table X ...        0.000 Kb.	Keys X: 0
+[36mappserver_1  |[0m                 Global Table A ...        0.064 Kb.	Keys A: 1
+[36mappserver_1  |[0m         Total (X + A + extras) ...        0.064 Kb.	Num Tables: 2
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m                       Hash Map ...        0.000 Kb.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ----------- SmartHeap Pools Info ----------
+[36mappserver_1  |[0m                    pooltString ...      527.62 kB. Count   2146 Ok
+[36mappserver_1  |[0m                   poolrContent ...     1235.28 kB. Count   2871 Ok
+[36mappserver_1  |[0m                  pooltInstrVar ...     1171.31 kB. Count   1950 Ok
+[36mappserver_1  |[0m                     pooltConst ...      591.59 kB. Count    773 Ok
+[36mappserver_1  |[0m         poolrContentTypeSimple ...       67.94 kB. Count      0 Ok
+[36mappserver_1  |[0m       poolrContentTypeDateTime ...       67.94 kB. Count      0 Ok
+[36mappserver_1  |[0m       poolrContentTypeInterval ...       67.94 kB. Count      0 Ok
+[36mappserver_1  |[0m                   pooltDecimal ...      259.84 kB. Count      0 Ok
+[36mappserver_1  |[0m      poolt4GLInterFunctionCall ...      131.91 kB. Count      0 Ok
+[36mappserver_1  |[0m                  pooltNamedVar ...     1491.16 kB. Count    460 Ok
+[36mappserver_1  |[0m                       pooltSum ...      463.66 kB. Count    283 Ok
+[36mappserver_1  |[0m                   pooltCompare ...      335.72 kB. Count    176 Ok
+[36mappserver_1  |[0m                  pooltLocalEnv ...      527.62 kB. Count    101 Ok
+[36mappserver_1  |[0m         pooltInterFunctionCall ...      463.66 kB. Count    224 Ok
+[36mappserver_1  |[0m        pooltDirectFunctionCall ...      335.72 kB. Count    347 Ok
+[36mappserver_1  |[0m                    pooltApoReg ...    16519.91 kB. Count 116733 Ok
+[36mappserver_1  |[0m                pooltAssignBase ...      463.66 kB. Count    626 Ok
+[36mappserver_1  |[0m                 pooltCodeBlock ...      399.69 kB. Count     25 Ok
+[36mappserver_1  |[0m              pooltCodeBlockEnv ...      399.69 kB. Count      4 Ok
+[36mappserver_1  |[0m              pooltCodeBlockRef ...      463.66 kB. Count     10 Ok
+[36mappserver_1  |[0m            pooltCodeBlockInstr ...      271.75 kB. Count     10 Ok
+[36mappserver_1  |[0m         pooltAPXmlDocInterface ...      259.84 kB. Count      0 Ok
+[36mappserver_1  |[0m                 pooltAPXmlItem ...       67.94 kB. Count      0 Ok
+[36mappserver_1  |[0m                 pooltClassData ...      591.59 kB. Count   1429 Ok
+[36mappserver_1  |[0m           pooltPrgFunctXRefEle ...     6916.59 kB. Count 220287 Ok
+[36mappserver_1  |[0m                pooltIdentifier ...      271.75 kB. Count    100 Ok
+[36mappserver_1  |[0m           pooltNamedVarXVarRef ...      271.75 kB. Count    214 Ok
+[36mappserver_1  |[0m                pooltParmDefDet ...      463.66 kB. Count    920 Ok
+[36mappserver_1  |[0m                   pooltVarList ...      399.69 kB. Count     40 Ok
+[36mappserver_1  |[0m                  pooltStatList ...      399.69 kB. Count    236 Ok
+[36mappserver_1  |[0m                  pooltParmList ...      719.53 kB. Count    589 Ok
+[36mappserver_1  |[0m              pooltArrayElement ...      271.75 kB. Count     26 Ok
+[36mappserver_1  |[0m                    pooltBaseIf ...      335.72 kB. Count    218 Ok
+[36mappserver_1  |[0m                    pooltMethod ...      327.78 kB. Count   2356 Ok
+[36mappserver_1  |[0m                pooltFindObject ...      335.72 kB. Count     86 Ok
+[36mappserver_1  |[0m                   pooltSelfVar ...      463.66 kB. Count     36 Ok
+[36mappserver_1  |[0m                 pooltClassProp ...      199.84 kB. Count      0 Ok
+[36mappserver_1  |[0m             pooltClassInstance ...      335.72 kB. Count      2 Ok
+[36mappserver_1  |[0m                pooltMethodCall ...      399.69 kB. Count     44 Ok
+[36mappserver_1  |[0m                    pooltReturn ...      271.75 kB. Count     98 Ok
+[36mappserver_1  |[0m                 pooltStaticEnv ...      463.66 kB. Count    140 Ok
+[36mappserver_1  |[0m                pooltPrivateEnv ...      463.66 kB. Count    104 Ok
+[36mappserver_1  |[0m            Default Memory Pool ...    37261.81 kB. Count  37401 Ok
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m            TOTAL POOLED MEMORY ...    77750.03 kB.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ----------- OS Memory Summary -------------
+[36mappserver_1  |[0m MemTotal:        6406160 kB		MemFree:         1507076 kB		
+[36mappserver_1  |[0m Active:           872016 kB		Inactive:        3782020 kB		
+[36mappserver_1  |[0m SwapTotal:       2097152 kB		SwapFree:        2097152 kB		
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m ----------- APP Memory Summary ------------
+[36mappserver_1  |[0m         Server Memory Capacity ...    32768.000 MB.
+[36mappserver_1  |[0m            Service Used Memory ...      273.414 MB.
+[36mappserver_1  |[0m        Service Resident Memory ...      108.945 MB.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m  (Turn on DebugThreadUsedMemory to see more detailed information of allocation)
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6][Thread Priority 20] Finishing Threads...
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6][Thread Priority 20] Terminated Sended for 4 Live Threads 4
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 9] Memory Monitor END
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6][Thread Priority 20] Terminated Sended for 0 Live Threads 2
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m /*-------------------------------------------------------
+[36mappserver_1  |[0m THREAD ERROR ([13], totvstec__, totvs)   17/10/2020   19:47:04
+[36mappserver_1  |[0m Application Server is Shutting Down. on FWSNOWDENCREDENTIAL:GETCREDENTIAL(FWSNOWDENCREDENTIAL.PRW) 13/10/2020 16:57:53
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [environment: environment]
+[36mappserver_1  |[0m [thread: 13]
+[36mappserver_1  |[0m [rpodb: SQLITE]
+[36mappserver_1  |[0m [localfiles: CTREE]
+[36mappserver_1  |[0m [remark: ]
+[36mappserver_1  |[0m [threadtype: JobThread]
+[36mappserver_1  |[0m Called from FWSNOWDENENTRIE:SENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53 line : 418
+[36mappserver_1  |[0m Called from FWSNOWDENENTRIE:PREPAREANDSENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53 line : 363
+[36mappserver_1  |[0m Called from FWERRSNOWDEN(FWSNOWDENERRORLOG.PRW) 13/10/2020 16:57:54 line : 54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Variables in use
+[36mappserver_1  |[0m Publicas
+[36mappserver_1  |[0m   Public 1: CPAISLOC(C) :BRA
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWERRSNOWDEN(FWSNOWDENERRORLOG.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: CONLYERROR(C) : variable does not exist __TTSINUSE on RECLOCK(APLIB060.PRW) 13/10/2020 16:57:54 line : 464
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 2: CSTACKERROR(C) : variable does not exist __TTSINUSE on RECLOCK(APLIB060.PRW) 13/10/2020 16:57:54 line : 464
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [TOTVS build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m Called from CREATEFIRSTCOMPANY(APLIB100.PRW) 13/10/2020 16:57:54 line : 3843
+[36mappserver_1  |[0m Called from CHKSM0FILE(APLIB100.PRW) 13/10/2020 16:57:54 line : 3754
+[36mappserver_1  |[0m Called from OPENSM0(APLIB100.PRW) 13/10/2020 16:57:54 line : 821
+[36mappserver_1  |[0m Called from FWHTTPPREPARE(FWHTTPPREPARE.PRW) 13/10/2020 16:57:54 line : 24
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 3: CENVERROR(C) : 
+[36mappserver_1  |[0m [TOTVS Environment: environment]
+[36mappserver_1  |[0m [TOTVS Environment RPODB: SQLITE]
+[36mappserver_1  |[0m [TOTVS Environment Trace: 0]
+[36mappserver_1  |[0m [TOTVS Environment IBXLog: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment KillStack: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment TraceStack: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment SpecialKey: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment LocalFiles: ctree]
+[36mappserver_1  |[0m [TOTVS Environment LogProfiler: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment TopMemoMega: 1]
+[36mappserver_1  |[0m [TOTVS Environment RPOLanguage: portuguese]
+[36mappserver_1  |[0m [TOTVS Environment RegionalLanguage: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment LocalDBExtension: .db]
+[36mappserver_1  |[0m [TOTVS Environment ConnectionTimeOut: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General CTreeMode: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General ConsoleLog: 1]
+[36mappserver_1  |[0m [TOTVS Environment General ConsoleFile: console.log]
+[36mappserver_1  |[0m [TOTVS Environment General MaxQuerySize: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General MaxStringSize: 10]
+[36mappserver_1  |[0m [TOTVS Remote type: Nenhum]
+[36mappserver_1  |[0m [TOTVS Server Type: Console]
+[36mappserver_1  |[0m [TOTVS Server Build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [TOTVS Server Version: 19.3.1.0]
+[36mappserver_1  |[0m [TOTVS Server 64 bits: Sim]
+[36mappserver_1  |[0m [TOTVS Server Unix: Sim]
+[36mappserver_1  |[0m [TOTVS Database: SQLITE]
+[36mappserver_1  |[0m [TOTVS Framework Vers?o: 20201009]
+[36mappserver_1  |[0m [TOTVS Framework Date: 20201013_16576]
+[36mappserver_1  |[0m [TOTVS Framework Commit: bae94a3cad4e71ef3ee584894c8e28383b7195ee]
+[36mappserver_1  |[0m [TOTVS RPO Release: 12.1.027]
+[36mappserver_1  |[0m [TOTVS License Server Version: 3.1.7]
+[36mappserver_1  |[0m [TOTVS Workarea - Alias: SM0]
+[36mappserver_1  |[0m [TOTVS Workarea - ?ndice ativo: 1]
+[36mappserver_1  |[0m [TOTVS Workarea - Chave do ?ndice ativo: M0_CODIGO+M0_CODFIL]
+[36mappserver_1  |[0m [TOTVS Workarea - Recno posicionado: 1]
+[36mappserver_1  |[0m [TOTVS Workarea - EOF: Sim]
+[36mappserver_1  |[0m [TOTVS Workarea - BOF: Sim]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Publicas
+[36mappserver_1  |[0m   Public 1: CPAISLOC(C) :BRA
+[36mappserver_1  |[0m   Public 2: __CLOGSIGA(C) :NNNNNNN
+[36mappserver_1  |[0m   Public 3: ASX8(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWHTTPPREPARE(FWHTTPPREPARE.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 1: APREPAREIN(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK OPENSM0(APLIB100.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: CEMPRESA(U) : NIL
+[36mappserver_1  |[0m   Param 2: LONLYSM0(L) : .F.
+[36mappserver_1  |[0m   Local 1: CEMPRESA(U) :NIL
+[36mappserver_1  |[0m   Local 2: LONLYSM0(L) :.F.
+[36mappserver_1  |[0m   Local 3: XDRIVER(C) :DBFCDX
+[36mappserver_1  |[0m   Local 4: CARQ(C) :SIGAMAT.EMP
+[36mappserver_1  |[0m   Local 5: CINDICE(U) :NIL
+[36mappserver_1  |[0m   Local 6: LOPENED(L) :.F.
+[36mappserver_1  |[0m   Local 7: LINDB(L) :.T.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK CHKSM0FILE(APLIB100.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK CREATEFIRSTCOMPANY(APLIB100.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 1: CLIBMOD(C) :
+[36mappserver_1  |[0m   Local 2: LPYME(L) :.F.
+[36mappserver_1  |[0m   Local 3: OEXECVIEW(U) :NIL
+[36mappserver_1  |[0m   Local 4: ABUTTONS(U) :NIL
+[36mappserver_1  |[0m   Local 5: NPOSARRAY(U) :NIL
+[36mappserver_1  |[0m   Local 6: ODLG(U) :NIL
+[36mappserver_1  |[0m   Local 7: OOPTDLG(U) :NIL
+[36mappserver_1  |[0m   Local 8: AOPTIONS(A) :
+[36mappserver_1  |[0m   Local 9: ADETAILS(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK RECLOCK(APLIB060.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: CALIAS(C) : SM0
+[36mappserver_1  |[0m   Param 2: LADD(L) : .T.
+[36mappserver_1  |[0m   Param 3: LDELETE(U) : NIL
+[36mappserver_1  |[0m   Param 4: LSOFT(L) : .F.
+[36mappserver_1  |[0m   Param 5: LINJOB(L) : .F.
+[36mappserver_1  |[0m   Local 1: CALIAS(C) :SM0
+[36mappserver_1  |[0m   Local 2: LADD(L) :.T.
+[36mappserver_1  |[0m   Local 3: LDELETE(U) :NIL
+[36mappserver_1  |[0m   Local 4: LSOFT(L) :.F.
+[36mappserver_1  |[0m   Local 5: LINJOB(L) :.F.
+[36mappserver_1  |[0m   Local 6: LRET(L) :.T.
+[36mappserver_1  |[0m   Local 7: I(U) :NIL
+[36mappserver_1  |[0m   Local 8: XBUFFER(U) :NIL
+[36mappserver_1  |[0m   Local 9: ASTACK(A) :
+[36mappserver_1  |[0m   Local 10: LEOF(L) :.T.
+[36mappserver_1  |[0m   Local 11: CMNT(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK { | E | ERRORDIALOG( E ) }(APLIB240.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: E(O) : O
+[36mappserver_1  |[0m   Local CodeBlock 1: E(O) :O
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK ERRORDIALOG(APLIB240.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: E(O) : O
+[36mappserver_1  |[0m   Local 1: E(O) :O
+[36mappserver_1  |[0m   Local 2: LINSIGA(L) :.F.
+[36mappserver_1  |[0m   Local 3: CMSG(U) :NIL
+[36mappserver_1  |[0m   Local 4: NI(U) :NIL
+[36mappserver_1  |[0m   Local 5: CX(U) :NIL
+[36mappserver_1  |[0m   Local 6: CERROR(U) :NIL
+[36mappserver_1  |[0m   Local 7: LSKIPERROR(L) :.F.
+[36mappserver_1  |[0m   Local 8: AOBJLOG(A) :
+[36mappserver_1  |[0m   Local 9: NX(U) :NIL
+[36mappserver_1  |[0m   Local 10: URETURN(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Files
+[36mappserver_1  |[0m   **SYS_COMPANY; Rdd:SQLITE; Alias:SM0; Filter :; Recno:1; Total Recs:0; Order:1
+[36mappserver_1  |[0m      Index (0) :**sys_company1  M0_CODIGO+M0_CODFIL
+[36mappserver_1  |[0m      Index (1) :sys_company2  M0_NOME+M0_FILIAL
+[36mappserver_1  |[0m     Field 1: M0_CODIGO(C) :  
+[36mappserver_1  |[0m     Field 2: M0_CODFIL(C) :            
+[36mappserver_1  |[0m     Field 3: M0_FILIAL(C) :                                         
+[36mappserver_1  |[0m     Field 4: M0_NOME(C) :                                        
+[36mappserver_1  |[0m     Field 5: M0_NOMECOM(C) :                                                            
+[36mappserver_1  |[0m     Field 6: M0_TEL(C) :              
+[36mappserver_1  |[0m     Field 7: M0_FAX(C) :              
+[36mappserver_1  |[0m     Field 8: M0_EQUIP(C) : 
+[36mappserver_1  |[0m     Field 9: M0_TPINSC(N) :0
+[36mappserver_1  |[0m     Field 10: M0_CGC(C) :              
+[36mappserver_1  |[0m     Field 11: M0_CEI(C) :              
+[36mappserver_1  |[0m     Field 12: M0_INSC(C) :              
+[36mappserver_1  |[0m     Field 13: M0_INSCM(C) :                         
+[36mappserver_1  |[0m     Field 14: M0_ENDENT(C) :                                                            
+[36mappserver_1  |[0m     Field 15: M0_COMPENT(C) :                         
+[36mappserver_1  |[0m     Field 16: M0_BAIRENT(C) :                                   
+[36mappserver_1  |[0m     Field 17: M0_CIDENT(C) :                                                            
+[36mappserver_1  |[0m     Field 18: M0_ESTENT(C) :  
+[36mappserver_1  |[0m     Field 19: M0_CEPENT(C) :        
+[36mappserver_1  |[0m     Field 20: M0_CODMUN(C) :       
+[36mappserver_1  |[0m     Field 21: M0_ENDCOB(C) :                                                            
+[36mappserver_1  |[0m     Field 22: M0_COMPCOB(C) :                         
+[36mappserver_1  |[0m     Field 23: M0_BAIRCOB(C) :                                   
+[36mappserver_1  |[0m     Field 24: M0_CIDCOB(C) :                                                            
+[36mappserver_1  |[0m     Field 25: M0_ESTCOB(C) :  
+[36mappserver_1  |[0m     Field 26: M0_CEPCOB(C) :        
+[36mappserver_1  |[0m     Field 27: M0_PRODRUR(C) : 
+[36mappserver_1  |[0m     Field 28: M0_FPAS(C) :    
+[36mappserver_1  |[0m     Field 29: M0_NATJUR(C) :    
+[36mappserver_1  |[0m     Field 30: M0_DTBASE(C) :  
+[36mappserver_1  |[0m     Field 31: M0_CNAE(C) :       
+[36mappserver_1  |[0m     Field 32: M0_ACTRAB(C) :        
+[36mappserver_1  |[0m     Field 33: M0_NUMPROP(N) :0
+[36mappserver_1  |[0m     Field 34: M0_MODEND(C) : 
+[36mappserver_1  |[0m     Field 35: M0_MODINSC(C) : 
+[36mappserver_1  |[0m     Field 36: M0_CAUSA(C) : 
+[36mappserver_1  |[0m     Field 37: M0_INSCANT(C) :              
+[36mappserver_1  |[0m     Field 38: M0_TPESTAB(C) :  
+[36mappserver_1  |[0m     Field 39: M0_TEL_IMP(C) :                      
+[36mappserver_1  |[0m     Field 40: M0_FAX_IMP(C) :                      
+[36mappserver_1  |[0m     Field 41: M0_IMP_CON(C) : 
+[36mappserver_1  |[0m     Field 42: M0_TEL_PO(C) :                      
+[36mappserver_1  |[0m     Field 43: M0_FAX_PO(C) :                      
+[36mappserver_1  |[0m     Field 44: M0_CODZOSE(C) :            
+[36mappserver_1  |[0m     Field 45: M0_DESZOSE(C) :                              
+[36mappserver_1  |[0m     Field 46: M0_COD_ATV(C) :     
+[36mappserver_1  |[0m     Field 47: M0_INS_SUF(C) :            
+[36mappserver_1  |[0m     Field 48: M0_NIRE(C) :                         
+[36mappserver_1  |[0m     Field 49: M0_DTRE(D) :00/00/00
+[36mappserver_1  |[0m     Field 50: M0_DSCCNA(C) :                                                            
+[36mappserver_1  |[0m     Field 51: M0_ASSPAT1(C) :   
+[36mappserver_1  |[0m     Field 52: M0_ASSPAT2(C) :   
+[36mappserver_1  |[0m     Field 53: M0_ASSPAT3(C) :   
+[36mappserver_1  |[0m     Field 54: M0_RNTRC(C) :        
+[36mappserver_1  |[0m     Field 55: M0_DTRNTRC(D) :00/00/00
+[36mappserver_1  |[0m     Field 56: M0_SEQUENC(C) :          
+[36mappserver_1  |[0m     Field 57: M0_DOCSEQ(N) :0
+[36mappserver_1  |[0m     Field 58: M0_EMERGEN(C) :        
+[36mappserver_1  |[0m     Field 59: M0_LIBMOD(C) :                                                                                                 
+[36mappserver_1  |[0m     Field 60: M0_DTAUTOR(D) :00/00/00
+[36mappserver_1  |[0m     Field 61: M0_EMPB2B(C) :                              
+[36mappserver_1  |[0m     Field 62: M0_CAIXA(C) :     
+[36mappserver_1  |[0m     Field 63: M0_LICENSA(C) :                                                                
+[36mappserver_1  |[0m     Field 64: M0_CORPKEY(C) :                
+[36mappserver_1  |[0m     Field 65: M0_CHKSUM(N) :0
+[36mappserver_1  |[0m     Field 66: M0_DTVLD(D) :00/00/00
+[36mappserver_1  |[0m     Field 67: M0_PSW(C) :        
+[36mappserver_1  |[0m     Field 68: M0_CTPSW(C) :        
+[36mappserver_1  |[0m     Field 69: M0_INTCTRL(C) :                  
+[36mappserver_1  |[0m     Field 70: M0_PSWSTRT(C) :                               
+[36mappserver_1  |[0m     Field 71: M0_CNES(C) :       
+[36mappserver_1  |[0m     Field 72: M0_SIZEFIL(N) :0
+[36mappserver_1  |[0m     Field 73: M0_LEIAUTE(C) :            
+[36mappserver_1  |[0m     Field 74: M0_PICTURE(C) :                                                                                                                                                                                                                                                               
+[36mappserver_1  |[0m     Field 75: M0_STATUS(C) : 
+[36mappserver_1  |[0m   SYS_COMPANY_CFG; Rdd:SQLITE; Alias:XX8; Filter :; Recno:1; Total Recs:0; Order:1
+[36mappserver_1  |[0m      Index (0) :**sys_company_cfg1  XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m      Index (1) :sys_company_cfg2  XX8_GRPEMP+XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m      Index (2) :sys_company_cfg3  XX8_GRPEMP+XX8_EMPR+XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m      Index (3) :sys_company_cfg4  XX8_GRPEMP+XX8_EMPR+XX8_UNID+XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m     Field 1: XX8_TIPO(C) : 
+[36mappserver_1  |[0m     Field 2: XX8_GRPEMP(C) :            
+[36mappserver_1  |[0m     Field 3: XX8_EMPR(C) :            
+[36mappserver_1  |[0m     Field 4: XX8_UNID(C) :            
+[36mappserver_1  |[0m     Field 5: XX8_CODIGO(C) :            
+[36mappserver_1  |[0m     Field 6: XX8_DESCRI(C) :                                        
+[36mappserver_1  |[0m     Field 7: XX8_SIZE(N) :0
+[36mappserver_1  |[0m     Field 8: XX8_LEIAUT(C) :            
+[36mappserver_1  |[0m   SYS_COMPANY_CFGIT; Rdd:SQLITE; Alias:XX9; Filter :; Recno:1; Total Recs:0; Order:1
+[36mappserver_1  |[0m      Index (0) :**sys_company_cfgit1  XX9_CODIGO+XX9_SEQ+XX9_SIGLA+XX9_ORDEM
+[36mappserver_1  |[0m      Index (1) :sys_company_cfgit2  XX9_CODIGO+XX9_SIGLA+XX9_ORDEM
+[36mappserver_1  |[0m     Field 1: XX9_CODIGO(C) :  
+[36mappserver_1  |[0m     Field 2: XX9_SEQ(C) :  
+[36mappserver_1  |[0m     Field 3: XX9_SIGLA(C) : 
+[36mappserver_1  |[0m     Field 4: XX9_ORDEM(C) :  
+[36mappserver_1  |[0m     Field 5: XX9_PICT(C) :                                                                                                                        
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 4: NMOD(U) : NIL
+[36mappserver_1  |[0m   Local 1: CONLYERROR(C) :variable does not exist __TTSINUSE on RECLOCK(APLIB060.PRW) 13/10/2020 16:57:54 line : 464
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 2: CSTACKERROR(C) :variable does not exist __TTSINUSE on RECLOCK(APLIB060.PRW) 13/10/2020 16:57:54 line : 464
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [TOTVS build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m Called from CREATEFIRSTCOMPANY(APLIB100.PRW) 13/10/2020 16:57:54 line : 3843
+[36mappserver_1  |[0m Called from CHKSM0FILE(APLIB100.PRW) 13/10/2020 16:57:54 line : 3754
+[36mappserver_1  |[0m Called from OPENSM0(APLIB100.PRW) 13/10/2020 16:57:54 line : 821
+[36mappserver_1  |[0m Called from FWHTTPPREPARE(FWHTTPPREPARE.PRW) 13/10/2020 16:57:54 line : 24
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 3: CENVERROR(C) :
+[36mappserver_1  |[0m [TOTVS Environment: environment]
+[36mappserver_1  |[0m [TOTVS Environment RPODB: SQLITE]
+[36mappserver_1  |[0m [TOTVS Environment Trace: 0]
+[36mappserver_1  |[0m [TOTVS Environment IBXLog: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment KillStack: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment TraceStack: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment SpecialKey: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment LocalFiles: ctree]
+[36mappserver_1  |[0m [TOTVS Environment LogProfiler: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment TopMemoMega: 1]
+[36mappserver_1  |[0m [TOTVS Environment RPOLanguage: portuguese]
+[36mappserver_1  |[0m [TOTVS Environment RegionalLanguage: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment LocalDBExtension: .db]
+[36mappserver_1  |[0m [TOTVS Environment ConnectionTimeOut: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General CTreeMode: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General ConsoleLog: 1]
+[36mappserver_1  |[0m [TOTVS Environment General ConsoleFile: console.log]
+[36mappserver_1  |[0m [TOTVS Environment General MaxQuerySize: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General MaxStringSize: 10]
+[36mappserver_1  |[0m [TOTVS Remote type: Nenhum]
+[36mappserver_1  |[0m [TOTVS Server Type: Console]
+[36mappserver_1  |[0m [TOTVS Server Build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [TOTVS Server Version: 19.3.1.0]
+[36mappserver_1  |[0m [TOTVS Server 64 bits: Sim]
+[36mappserver_1  |[0m [TOTVS Server Unix: Sim]
+[36mappserver_1  |[0m [TOTVS Database: SQLITE]
+[36mappserver_1  |[0m [TOTVS Framework Vers?o: 20201009]
+[36mappserver_1  |[0m [TOTVS Framework Date: 20201013_16576]
+[36mappserver_1  |[0m [TOTVS Framework Commit: bae94a3cad4e71ef3ee584894c8e28383b7195ee]
+[36mappserver_1  |[0m [TOTVS RPO Release: 12.1.027]
+[36mappserver_1  |[0m [TOTVS License Server Version: 3.1.7]
+[36mappserver_1  |[0m [TOTVS Workarea - Alias: SM0]
+[36mappserver_1  |[0m [TOTVS Workarea - ?ndice ativo: 1]
+[36mappserver_1  |[0m [TOTVS Workarea - Chave do ?ndice ativo: M0_CODIGO+M0_CODFIL]
+[36mappserver_1  |[0m [TOTVS Workarea - Recno posicionado: 1]
+[36mappserver_1  |[0m [TOTVS Workarea - EOF: Sim]
+[36mappserver_1  |[0m [TOTVS Workarea - BOF: Sim]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Publicas
+[36mappserver_1  |[0m   Public 1: CPAISLOC(C) :BRA
+[36mappserver_1  |[0m   Public 2: __CLOGSIGA(C) :NNNNNNN
+[36mappserver_1  |[0m   Public 3: ASX8(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWHTTPPREPARE(FWHTTPPREPARE.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 1: APREPAREIN(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK OPENSM0(APLIB100.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: CEMPRESA(U) : NIL
+[36mappserver_1  |[0m   Param 2: LONLYSM0(L) : .F.
+[36mappserver_1  |[0m   Local 1: CEMPRESA(U) :NIL
+[36mappserver_1  |[0m   Local 2: LONLYSM0(L) :.F.
+[36mappserver_1  |[0m   Local 3: XDRIVER(C) :DBFCDX
+[36mappserver_1  |[0m   Local 4: CARQ(C) :SIGAMAT.EMP
+[36mappserver_1  |[0m   Local 5: CINDICE(U) :NIL
+[36mappserver_1  |[0m   Local 6: LOPENED(L) :.F.
+[36mappserver_1  |[0m   Local 7: LINDB(L) :.T.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK CHKSM0FILE(APLIB100.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK CREATEFIRSTCOMPANY(APLIB100.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 1: CLIBMOD(C) :
+[36mappserver_1  |[0m   Local 2: LPYME(L) :.F.
+[36mappserver_1  |[0m   Local 3: OEXECVIEW(U) :NIL
+[36mappserver_1  |[0m   Local 4: ABUTTONS(U) :NIL
+[36mappserver_1  |[0m   Local 5: NPOSARRAY(U) :NIL
+[36mappserver_1  |[0m   Local 6: ODLG(U) :NIL
+[36mappserver_1  |[0m   Local 7: OOPTDLG(U) :NIL
+[36mappserver_1  |[0m   Local 8: AOPTIONS(A) :
+[36mappserver_1  |[0m   Local 9: ADETAILS(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK RECLOCK(APLIB060.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: CALIAS(C) : SM0
+[36mappserver_1  |[0m   Param 2: LADD(L) : .T.
+[36mappserver_1  |[0m   Param 3: LDELETE(U) : NIL
+[36mappserver_1  |[0m   Param 4: LSOFT(L) : .F.
+[36mappserver_1  |[0m   Param 5: LINJOB(L) : .F.
+[36mappserver_1  |[0m   Local 1: CALIAS(C) :SM0
+[36mappserver_1  |[0m   Local 2: LADD(L) :.T.
+[36mappserver_1  |[0m   Local 3: LDELETE(U) :NIL
+[36mappserver_1  |[0m   Local 4: LSOFT(L) :.F.
+[36mappserver_1  |[0m   Local 5: LINJOB(L) :.F.
+[36mappserver_1  |[0m   Local 6: LRET(L) :.T.
+[36mappserver_1  |[0m   Local 7: I(U) :NIL
+[36mappserver_1  |[0m   Local 8: XBUFFER(U) :NIL
+[36mappserver_1  |[0m   Local 9: ASTACK(A) :
+[36mappserver_1  |[0m   Local 10: LEOF(L) :.T.
+[36mappserver_1  |[0m   Local 11: CMNT(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK { | E | ERRORDIALOG( E ) }(APLIB240.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: E(O) : O
+[36mappserver_1  |[0m   Local CodeBlock 1: E(O) :O
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK ERRORDIALOG(APLIB240.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: E(O) : O
+[36mappserver_1  |[0m   Local 1: E(O) :O
+[36mappserver_1  |[0m   Local 2: LINSIGA(L) :.F.
+[36mappserver_1  |[0m   Local 3: CMSG(U) :NIL
+[36mappserver_1  |[0m   Local 4: NI(U) :NIL
+[36mappserver_1  |[0m   Local 5: CX(U) :NIL
+[36mappserver_1  |[0m   Local 6: CERROR(U) :NIL
+[36mappserver_1  |[0m   Local 7: LSKIPERROR(L) :.F.
+[36mappserver_1  |[0m   Local 8: AOBJLOG(A) :
+[36mappserver_1  |[0m   Local 9: NX(U) :NIL
+[36mappserver_1  |[0m   Local 10: URETURN(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Files
+[36mappserver_1  |[0m   **SYS_COMPANY; Rdd:SQLITE; Alias:SM0; Filter :; Recno:1; Total Recs:0; Order:1
+[36mappserver_1  |[0m      Index (0) :**sys_company1  M0_CODIGO+M0_CODFIL
+[36mappserver_1  |[0m      Index (1) :sys_company2  M0_NOME+M0_FILIAL
+[36mappserver_1  |[0m     Field 1: M0_CODIGO(C) :  
+[36mappserver_1  |[0m     Field 2: M0_CODFIL(C) :            
+[36mappserver_1  |[0m     Field 3: M0_FILIAL(C) :                                         
+[36mappserver_1  |[0m     Field 4: M0_NOME(C) :                                        
+[36mappserver_1  |[0m     Field 5: M0_NOMECOM(C) :                                                            
+[36mappserver_1  |[0m     Field 6: M0_TEL(C) :              
+[36mappserver_1  |[0m     Field 7: M0_FAX(C) :              
+[36mappserver_1  |[0m     Field 8: M0_EQUIP(C) : 
+[36mappserver_1  |[0m     Field 9: M0_TPINSC(N) :0
+[36mappserver_1  |[0m     Field 10: M0_CGC(C) :              
+[36mappserver_1  |[0m     Field 11: M0_CEI(C) :              
+[36mappserver_1  |[0m     Field 12: M0_INSC(C) :              
+[36mappserver_1  |[0m     Field 13: M0_INSCM(C) :                         
+[36mappserver_1  |[0m     Field 14: M0_ENDENT(C) :                                                            
+[36mappserver_1  |[0m     Field 15: M0_COMPENT(C) :                         
+[36mappserver_1  |[0m     Field 16: M0_BAIRENT(C) :                                   
+[36mappserver_1  |[0m     Field 17: M0_CIDENT(C) :                                                            
+[36mappserver_1  |[0m     Field 18: M0_ESTENT(C) :  
+[36mappserver_1  |[0m     Field 19: M0_CEPENT(C) :        
+[36mappserver_1  |[0m     Field 20: M0_CODMUN(C) :       
+[36mappserver_1  |[0m     Field 21: M0_ENDCOB(C) :                                                            
+[36mappserver_1  |[0m     Field 22: M0_COMPCOB(C) :                         
+[36mappserver_1  |[0m     Field 23: M0_BAIRCOB(C) :                                   
+[36mappserver_1  |[0m     Field 24: M0_CIDCOB(C) :                                                            
+[36mappserver_1  |[0m     Field 25: M0_ESTCOB(C) :  
+[36mappserver_1  |[0m     Field 26: M0_CEPCOB(C) :        
+[36mappserver_1  |[0m     Field 27: M0_PRODRUR(C) : 
+[36mappserver_1  |[0m     Field 28: M0_FPAS(C) :    
+[36mappserver_1  |[0m     Field 29: M0_NATJUR(C) :    
+[36mappserver_1  |[0m     Field 30: M0_DTBASE(C) :  
+[36mappserver_1  |[0m     Field 31: M0_CNAE(C) :       
+[36mappserver_1  |[0m     Field 32: M0_ACTRAB(C) :        
+[36mappserver_1  |[0m     Field 33: M0_NUMPROP(N) :0
+[36mappserver_1  |[0m     Field 34: M0_MODEND(C) : 
+[36mappserver_1  |[0m     Field 35: M0_MODINSC(C) : 
+[36mappserver_1  |[0m     Field 36: M0_CAUSA(C) : 
+[36mappserver_1  |[0m     Field 37: M0_INSCANT(C) :              
+[36mappserver_1  |[0m     Field 38: M0_TPESTAB(C) :  
+[36mappserver_1  |[0m     Field 39: M0_TEL_IMP(C) :                      
+[36mappserver_1  |[0m     Field 40: M0_FAX_IMP(C) :                      
+[36mappserver_1  |[0m     Field 41: M0_IMP_CON(C) : 
+[36mappserver_1  |[0m     Field 42: M0_TEL_PO(C) :                      
+[36mappserver_1  |[0m     Field 43: M0_FAX_PO(C) :                      
+[36mappserver_1  |[0m     Field 44: M0_CODZOSE(C) :            
+[36mappserver_1  |[0m     Field 45: M0_DESZOSE(C) :                              
+[36mappserver_1  |[0m     Field 46: M0_COD_ATV(C) :     
+[36mappserver_1  |[0m     Field 47: M0_INS_SUF(C) :            
+[36mappserver_1  |[0m     Field 48: M0_NIRE(C) :                         
+[36mappserver_1  |[0m     Field 49: M0_DTRE(D) :00/00/00
+[36mappserver_1  |[0m     Field 50: M0_DSCCNA(C) :                                                            
+[36mappserver_1  |[0m     Field 51: M0_ASSPAT1(C) :   
+[36mappserver_1  |[0m     Field 52: M0_ASSPAT2(C) :   
+[36mappserver_1  |[0m     Field 53: M0_ASSPAT3(C) :   
+[36mappserver_1  |[0m     Field 54: M0_RNTRC(C) :        
+[36mappserver_1  |[0m     Field 55: M0_DTRNTRC(D) :00/00/00
+[36mappserver_1  |[0m     Field 56: M0_SEQUENC(C) :          
+[36mappserver_1  |[0m     Field 57: M0_DOCSEQ(N) :0
+[36mappserver_1  |[0m     Field 58: M0_EMERGEN(C) :        
+[36mappserver_1  |[0m     Field 59: M0_LIBMOD(C) :                                                                                                 
+[36mappserver_1  |[0m     Field 60: M0_DTAUTOR(D) :00/00/00
+[36mappserver_1  |[0m     Field 61: M0_EMPB2B(C) :                              
+[36mappserver_1  |[0m     Field 62: M0_CAIXA(C) :     
+[36mappserver_1  |[0m     Field 63: M0_LICENSA(C) :                                                                
+[36mappserver_1  |[0m     Field 64: M0_CORPKEY(C) :                
+[36mappserver_1  |[0m     Field 65: M0_CHKSUM(N) :0
+[36mappserver_1  |[0m     Field 66: M0_DTVLD(D) :00/00/00
+[36mappserver_1  |[0m     Field 67: M0_PSW(C) :        
+[36mappserver_1  |[0m     Field 68: M0_CTPSW(C) :        
+[36mappserver_1  |[0m     Field 69: M0_INTCTRL(C) :                  
+[36mappserver_1  |[0m     Field 70: M0_PSWSTRT(C) :                               
+[36mappserver_1  |[0m     Field 71: M0_CNES(C) :       
+[36mappserver_1  |[0m     Field 72: M0_SIZEFIL(N) :0
+[36mappserver_1  |[0m     Field 73: M0_LEIAUTE(C) :            
+[36mappserver_1  |[0m     Field 74: M0_PICTURE(C) :                                                                                                                                                                                                                                                               
+[36mappserver_1  |[0m     Field 75: M0_STATUS(C) : 
+[36mappserver_1  |[0m   SYS_COMPANY_CFG; Rdd:SQLITE; Alias:XX8; Filter :; Recno:1; Total Recs:0; Order:1
+[36mappserver_1  |[0m      Index (0) :**sys_company_cfg1  XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m      Index (1) :sys_company_cfg2  XX8_GRPEMP+XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m      Index (2) :sys_company_cfg3  XX8_GRPEMP+XX8_EMPR+XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m      Index (3) :sys_company_cfg4  XX8_GRPEMP+XX8_EMPR+XX8_UNID+XX8_CODIGO+XX8_TIPO
+[36mappserver_1  |[0m     Field 1: XX8_TIPO(C) : 
+[36mappserver_1  |[0m     Field 2: XX8_GRPEMP(C) :            
+[36mappserver_1  |[0m     Field 3: XX8_EMPR(C) :            
+[36mappserver_1  |[0m     Field 4: XX8_UNID(C) :            
+[36mappserver_1  |[0m     Field 5: XX8_CODIGO(C) :            
+[36mappserver_1  |[0m     Field 6: XX8_DESCRI(C) :                                        
+[36mappserver_1  |[0m     Field 7: XX8_SIZE(N) :0
+[36mappserver_1  |[0m     Field 8: XX8_LEIAUT(C) :            
+[36mappserver_1  |[0m   SYS_COMPANY_CFGIT; Rdd:SQLITE; Alias:XX9; Filter :; Recno:1; Total Recs:0; Order:1
+[36mappserver_1  |[0m      Index (0) :**sys_company_cfgit1  XX9_CODIGO+XX9_SEQ+XX9_SIGLA+XX9_ORDEM
+[36mappserver_1  |[0m      Index (1) :sys_company_cfgit2  XX9_CODIGO+XX9_SIGLA+XX9_ORDEM
+[36mappserver_1  |[0m     Field 1: XX9_CODIGO(C) :  
+[36mappserver_1  |[0m     Field 2: XX9_SEQ(C) :  
+[36mappserver_1  |[0m     Field 3: XX9_SIGLA(C) : 
+[36mappserver_1  |[0m     Field 4: XX9_ORDEM(C) :  
+[36mappserver_1  |[0m     Field 5: XX9_PICT(C) :                                                                                                                        
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 4: NMOD(U) :NIL
+[36mappserver_1  |[0m   Local 5: OERRSNOWDEN(O) :O
+[36mappserver_1  |[0m   Local 6: BERRORBLOCK(B) :
+[36mappserver_1  |[0m   Local 7: CERRORLS(C) :
+[36mappserver_1  |[0m THREAD ERROR ([11], totvstec_, totvs)   17/10/2020 19:47:02
+[36mappserver_1  |[0m variable does not exist __TTSINUSE on RECLOCK(APLIB060.PRW) 13/10/2020 16:57:54 line : 464
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [TOTVS build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m Called from CREATEFIRSTCOMPANY(APLIB100.PRW) 13/10/2020 16:57:54 line : 3843
+[36mappserver_1  |[0m Called from CHKSM0FILE(APLIB100.PRW) 13/10/2020 16:57:54 line : 3754
+[36mappserver_1  |[0m Called from OPENSM0(APLIB100.PRW) 13/10/2020 16:57:54 line : 821
+[36mappserver_1  |[0m Called from FWHTTPPREPARE(FWHTTPPREPARE.PRW) 13/10/2020 16:57:54 line : 24
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 8: LADVPL(L) :.T.
+[36mappserver_1  |[0m   Local 9: LSENDED(L) :.F.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWSNOWDENENTRIE:PREPAREANDSENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 1: SELF(O) :O
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWSNOWDENENTRIE:SENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 1: SELF(O) :O
+[36mappserver_1  |[0m   Local 2: CADDRES(U) :NIL
+[36mappserver_1  |[0m   Local 3: CPOST(U) :NIL
+[36mappserver_1  |[0m   Local 4: CHEADER(C) :
+[36mappserver_1  |[0m   Local 5: CTOKEN(U) :NIL
+[36mappserver_1  |[0m   Local 6: LTKNOK(L) :.T.
+[36mappserver_1  |[0m   Local 7: LSENDED(L) :.F.
+[36mappserver_1  |[0m   Local 8: JRETURN(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWSNOWDENCREDENTIAL:GETCREDENTIAL(FWSNOWDENCREDENTIAL.PRW) 13/10/2020 16:57:53
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: @LOK(L) : .T.
+[36mappserver_1  |[0m   Local 1: LOK(L) :.T.
+[36mappserver_1  |[0m   Local 2: CCREDENTIAL(U) :NIL
+[36mappserver_1  |[0m   Local 3: CPOSTHTTP(C) :<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+[36mappserver_1  |[0m <html xmlns="http://www.w3.org/1999/xhtml">
+
+[36mappserver_1  |[0m <head>
+
+[36mappserver_1  |[0m <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+[36mappserver_1  |[0m <title>502 - Web server received an invalid response while acting as a gateway or proxy server.</title>
+
+[36mappserver_1  |[0m <style type="text/css">
+
+[36mappserver_1  |[0m <!--
+
+[36mappserver_1  |[0m body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+
+[36mappserver_1  |[0m fieldset{padding:0 15px 10px 15px;} 
+
+[36mappserver_1  |[0m h1{font-size:2.4em;margin:0;color:#FFF;}
+
+[36mappserver_1  |[0m h2{font-size:1.7em;margin:0;color:#CC0000;} 
+
+[36mappserver_1  |[0m h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+
+[36mappserver_1  |[0m #header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+
+[36mappserver_1  |[0m background-color:#555555;}
+
+[36mappserver_1  |[0m #content{margin:0 0 0 2%;position:relative;}
+
+[36mappserver_1  |[0m .content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+
+[36mappserver_1  |[0m -->
+
+[36mappserver_1  |[0m </style>
+
+[36mappserver_1  |[0m </head>
+
+[36mappserver_1  |[0m <body>
+
+[36mappserver_1  |[0m <div id="header"><h1>Server Error</h1></div>
+
+[36mappserver_1  |[0m <div id="content">
+
+[36mappserver_1  |[0m  <div class="content-container"><fieldset>
+
+[36mappserver_1  |[0m   <h2>502 - Web server received an invalid response while acting as a gateway or proxy server.</h2>
+
+[36mappserver_1  |[0m   <h3>There is a problem with the page you are looking for, and it cannot be displayed. When the Web server (while acting as a gateway or proxy) contacted the upstream content server, it received an invalid response from the content server.</h3>
+
+[36mappserver_1  |[0m  </fieldset></div>
+
+[36mappserver_1  |[0m </div>
+
+[36mappserver_1  |[0m </body>
+
+[36mappserver_1  |[0m </html>
+
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 4: JJSONCREDTL(J) :J
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Files
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Stack : 
+[36mappserver_1  |[0m Application Server is Shutting Down. on FWSNOWDENCREDENTIAL:GETCREDENTIAL(FWSNOWDENCREDENTIAL.PRW) 13/10/2020 16:57:53
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [environment: environment]
+[36mappserver_1  |[0m [thread: 13]
+[36mappserver_1  |[0m [rpodb: SQLITE]
+[36mappserver_1  |[0m [localfiles: CTREE]
+[36mappserver_1  |[0m [remark: ]
+[36mappserver_1  |[0m [threadtype: JobThread]
+[36mappserver_1  |[0m Called from FWSNOWDENENTRIE:SENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53 line : 418
+[36mappserver_1  |[0m Called from FWSNOWDENENTRIE:PREPAREANDSENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53 line : 363
+[36mappserver_1  |[0m Called from FWERRSNOWDEN(FWSNOWDENERRORLOG.PRW) 13/10/2020 16:57:54 line : 54
+[36mappserver_1  |[0m -------------------------------------------------------*/
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread    13] JOB Thread finished [-FWERRSNOWDEN]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6][Thread Priority 20] Terminated Sended for 0 Live Threads 1
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m /*-------------------------------------------------------
+[36mappserver_1  |[0m THREAD ERROR ([16], totvstec_, totvs)   17/10/2020   19:47:04
+[36mappserver_1  |[0m Application Server is Shutting Down. on FWSNOWDENCREDENTIAL:GETCREDENTIAL(FWSNOWDENCREDENTIAL.PRW) 13/10/2020 16:57:53
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [environment: ENVIRONMENT]
+[36mappserver_1  |[0m [thread: 16]
+[36mappserver_1  |[0m [rpodb: SQLITE]
+[36mappserver_1  |[0m [localfiles: CTREE]
+[36mappserver_1  |[0m [remark: ]
+[36mappserver_1  |[0m [threadtype: JobThread]
+[36mappserver_1  |[0m Called from FWSNOWDENENTRIE:SENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53 line : 418
+[36mappserver_1  |[0m Called from FWSNOWDENENTRIE:PREPAREANDSENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53 line : 363
+[36mappserver_1  |[0m Called from FWERRSNOWDEN(FWSNOWDENERRORLOG.PRW) 13/10/2020 16:57:54 line : 54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Variables in use
+[36mappserver_1  |[0m Publicas
+[36mappserver_1  |[0m   Public 1: CPAISLOC(C) :BRA
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWERRSNOWDEN(FWSNOWDENERRORLOG.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: CONLYERROR(C) : variable is not array - Type [U] on _REST_INIT(FWRESTHANDLER.PRW) 13/10/2020 16:57:54 line : 61
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 2: CSTACKERROR(C) : variable is not array - Type [U] on _REST_INIT(FWRESTHANDLER.PRW) 13/10/2020 16:57:54 line : 61
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [TOTVS build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 3: CENVERROR(C) : 
+[36mappserver_1  |[0m [TOTVS Environment: ENVIRONMENT]
+[36mappserver_1  |[0m [TOTVS Environment RPODB: SQLITE]
+[36mappserver_1  |[0m [TOTVS Environment Trace: 0]
+[36mappserver_1  |[0m [TOTVS Environment IBXLog: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment KillStack: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment TraceStack: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment SpecialKey: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment LocalFiles: ctree]
+[36mappserver_1  |[0m [TOTVS Environment LogProfiler: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment TopMemoMega: 1]
+[36mappserver_1  |[0m [TOTVS Environment RPOLanguage: portuguese]
+[36mappserver_1  |[0m [TOTVS Environment RegionalLanguage: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment LocalDBExtension: .db]
+[36mappserver_1  |[0m [TOTVS Environment ConnectionTimeOut: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General CTreeMode: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General ConsoleLog: 1]
+[36mappserver_1  |[0m [TOTVS Environment General ConsoleFile: console.log]
+[36mappserver_1  |[0m [TOTVS Environment General MaxQuerySize: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General MaxStringSize: 10]
+[36mappserver_1  |[0m [TOTVS Remote type: Nenhum]
+[36mappserver_1  |[0m [TOTVS Server Type: Console]
+[36mappserver_1  |[0m [TOTVS Server Build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [TOTVS Server Version: 19.3.1.0]
+[36mappserver_1  |[0m [TOTVS Server 64 bits: Sim]
+[36mappserver_1  |[0m [TOTVS Server Unix: Sim]
+[36mappserver_1  |[0m [TOTVS Database: SQLITE]
+[36mappserver_1  |[0m [TOTVS Framework Vers?o: 20201009]
+[36mappserver_1  |[0m [TOTVS Framework Date: 20201013_16576]
+[36mappserver_1  |[0m [TOTVS Framework Commit: bae94a3cad4e71ef3ee584894c8e28383b7195ee]
+[36mappserver_1  |[0m [TOTVS RPO Release: 12.1.027]
+[36mappserver_1  |[0m [TOTVS License Server Version: 3.1.7]
+[36mappserver_1  |[0m [TOTVS Workarea - Alias: Nenhum]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Publicas
+[36mappserver_1  |[0m   Public 1: CPAISLOC(C) :BRA
+[36mappserver_1  |[0m   Public 2: ASX8(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK _REST_INIT(FWRESTHANDLER.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Private 1: OVDRCTRL(O) :O
+[36mappserver_1  |[0m   Local 1: OCFG(J) :J
+[36mappserver_1  |[0m   Local 2: AEMP(U) :NIL
+[36mappserver_1  |[0m   Local 3: ACLASS(U) :NIL
+[36mappserver_1  |[0m   Local 4: AALLEMP(U) :NIL
+[36mappserver_1  |[0m   Local 5: ATHREADS(U) :NIL
+[36mappserver_1  |[0m   Local 6: CENV(C) :environment
+[36mappserver_1  |[0m   Local 7: CID(U) :NIL
+[36mappserver_1  |[0m   Local 8: CROOTPATH(C) :/totvs/protheus_data/
+[36mappserver_1  |[0m   Local 9: CSERVER(U) :NIL
+[36mappserver_1  |[0m   Local 10: CLOCATION(U) :NIL
+[36mappserver_1  |[0m   Local 11: NX(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK { | E | ERRORDIALOG( E ) }(APLIB240.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: E(O) : O
+[36mappserver_1  |[0m   Local CodeBlock 1: E(O) :O
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK ERRORDIALOG(APLIB240.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: E(O) : O
+[36mappserver_1  |[0m   Local 1: E(O) :O
+[36mappserver_1  |[0m   Local 2: LINSIGA(L) :.F.
+[36mappserver_1  |[0m   Local 3: CMSG(U) :NIL
+[36mappserver_1  |[0m   Local 4: NI(U) :NIL
+[36mappserver_1  |[0m   Local 5: CX(U) :NIL
+[36mappserver_1  |[0m   Local 6: CERROR(U) :NIL
+[36mappserver_1  |[0m   Local 7: LSKIPERROR(L) :.F.
+[36mappserver_1  |[0m   Local 8: AOBJLOG(A) :
+[36mappserver_1  |[0m   Local 9: NX(U) :NIL
+[36mappserver_1  |[0m   Local 10: URETURN(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Files
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 4: NMOD(U) : NIL
+[36mappserver_1  |[0m   Local 1: CONLYERROR(C) :variable is not array - Type [U] on _REST_INIT(FWRESTHANDLER.PRW) 13/10/2020 16:57:54 line : 61
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 2: CSTACKERROR(C) :variable is not array - Type [U] on _REST_INIT(FWRESTHANDLER.PRW) 13/10/2020 16:57:54 line : 61
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [TOTVS build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 3: CENVERROR(C) :
+[36mappserver_1  |[0m [TOTVS Environment: ENVIRONMENT]
+[36mappserver_1  |[0m [TOTVS Environment RPODB: SQLITE]
+[36mappserver_1  |[0m [TOTVS Environment Trace: 0]
+[36mappserver_1  |[0m [TOTVS Environment IBXLog: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment KillStack: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment TraceStack: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment SpecialKey: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment LocalFiles: ctree]
+[36mappserver_1  |[0m [TOTVS Environment LogProfiler: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment TopMemoMega: 1]
+[36mappserver_1  |[0m [TOTVS Environment RPOLanguage: portuguese]
+[36mappserver_1  |[0m [TOTVS Environment RegionalLanguage: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment LocalDBExtension: .db]
+[36mappserver_1  |[0m [TOTVS Environment ConnectionTimeOut: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General CTreeMode: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General ConsoleLog: 1]
+[36mappserver_1  |[0m [TOTVS Environment General ConsoleFile: console.log]
+[36mappserver_1  |[0m [TOTVS Environment General MaxQuerySize: Nenhum]
+[36mappserver_1  |[0m [TOTVS Environment General MaxStringSize: 10]
+[36mappserver_1  |[0m [TOTVS Remote type: Nenhum]
+[36mappserver_1  |[0m [TOTVS Server Type: Console]
+[36mappserver_1  |[0m [TOTVS Server Build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [TOTVS Server Version: 19.3.1.0]
+[36mappserver_1  |[0m [TOTVS Server 64 bits: Sim]
+[36mappserver_1  |[0m [TOTVS Server Unix: Sim]
+[36mappserver_1  |[0m [TOTVS Database: SQLITE]
+[36mappserver_1  |[0m [TOTVS Framework Vers?o: 20201009]
+[36mappserver_1  |[0m [TOTVS Framework Date: 20201013_16576]
+[36mappserver_1  |[0m [TOTVS Framework Commit: bae94a3cad4e71ef3ee584894c8e28383b7195ee]
+[36mappserver_1  |[0m [TOTVS RPO Release: 12.1.027]
+[36mappserver_1  |[0m [TOTVS License Server Version: 3.1.7]
+[36mappserver_1  |[0m [TOTVS Workarea - Alias: Nenhum]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Publicas
+[36mappserver_1  |[0m   Public 1: CPAISLOC(C) :BRA
+[36mappserver_1  |[0m   Public 2: ASX8(A) :
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK _REST_INIT(FWRESTHANDLER.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Private 1: OVDRCTRL(O) :O
+[36mappserver_1  |[0m   Local 1: OCFG(J) :J
+[36mappserver_1  |[0m   Local 2: AEMP(U) :NIL
+[36mappserver_1  |[0m   Local 3: ACLASS(U) :NIL
+[36mappserver_1  |[0m   Local 4: AALLEMP(U) :NIL
+[36mappserver_1  |[0m   Local 5: ATHREADS(U) :NIL
+[36mappserver_1  |[0m   Local 6: CENV(C) :environment
+[36mappserver_1  |[0m   Local 7: CID(U) :NIL
+[36mappserver_1  |[0m   Local 8: CROOTPATH(C) :/totvs/protheus_data/
+[36mappserver_1  |[0m   Local 9: CSERVER(U) :NIL
+[36mappserver_1  |[0m   Local 10: CLOCATION(U) :NIL
+[36mappserver_1  |[0m   Local 11: NX(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK { | E | ERRORDIALOG( E ) }(APLIB240.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: E(O) : O
+[36mappserver_1  |[0m   Local CodeBlock 1: E(O) :O
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK ERRORDIALOG(APLIB240.PRW) 13/10/2020 16:57:54
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: E(O) : O
+[36mappserver_1  |[0m   Local 1: E(O) :O
+[36mappserver_1  |[0m   Local 2: LINSIGA(L) :.F.
+[36mappserver_1  |[0m   Local 3: CMSG(U) :NIL
+[36mappserver_1  |[0m   Local 4: NI(U) :NIL
+[36mappserver_1  |[0m   Local 5: CX(U) :NIL
+[36mappserver_1  |[0m   Local 6: CERROR(U) :NIL
+[36mappserver_1  |[0m   Local 7: LSKIPERROR(L) :.F.
+[36mappserver_1  |[0m   Local 8: AOBJLOG(A) :
+[36mappserver_1  |[0m   Local 9: NX(U) :NIL
+[36mappserver_1  |[0m   Local 10: URETURN(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Files
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 4: NMOD(U) :NIL
+[36mappserver_1  |[0m   Local 5: OERRSNOWDEN(O) :O
+[36mappserver_1  |[0m   Local 6: BERRORBLOCK(B) :
+[36mappserver_1  |[0m   Local 7: CERRORLS(C) :
+[36mappserver_1  |[0m THREAD ERROR ([6], totvstec, totvs)   17/10/2020 19:47:03
+[36mappserver_1  |[0m variable is not array - Type [U] on _REST_INIT(FWRESTHANDLER.PRW) 13/10/2020 16:57:54 line : 61
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [TOTVS build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 8: LADVPL(L) :.T.
+[36mappserver_1  |[0m   Local 9: LSENDED(L) :.F.
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWSNOWDENENTRIE:PREPAREANDSENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 1: SELF(O) :O
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWSNOWDENENTRIE:SENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 1: SELF(O) :O
+[36mappserver_1  |[0m   Local 2: CADDRES(U) :NIL
+[36mappserver_1  |[0m   Local 3: CPOST(U) :NIL
+[36mappserver_1  |[0m   Local 4: CHEADER(C) :
+[36mappserver_1  |[0m   Local 5: CTOKEN(U) :NIL
+[36mappserver_1  |[0m   Local 6: LTKNOK(L) :.T.
+[36mappserver_1  |[0m   Local 7: LSENDED(L) :.F.
+[36mappserver_1  |[0m   Local 8: JRETURN(U) :NIL
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m STACK FWSNOWDENCREDENTIAL:GETCREDENTIAL(FWSNOWDENCREDENTIAL.PRW) 13/10/2020 16:57:53
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Param 1: @LOK(L) : .T.
+[36mappserver_1  |[0m   Local 1: LOK(L) :.T.
+[36mappserver_1  |[0m   Local 2: CCREDENTIAL(U) :NIL
+[36mappserver_1  |[0m   Local 3: CPOSTHTTP(C) :<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+[36mappserver_1  |[0m <html xmlns="http://www.w3.org/1999/xhtml">
+
+[36mappserver_1  |[0m <head>
+
+[36mappserver_1  |[0m <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+
+[36mappserver_1  |[0m <title>502 - Web server received an invalid response while acting as a gateway or proxy server.</title>
+
+[36mappserver_1  |[0m <style type="text/css">
+
+[36mappserver_1  |[0m <!--
+
+[36mappserver_1  |[0m body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+
+[36mappserver_1  |[0m fieldset{padding:0 15px 10px 15px;} 
+
+[36mappserver_1  |[0m h1{font-size:2.4em;margin:0;color:#FFF;}
+
+[36mappserver_1  |[0m h2{font-size:1.7em;margin:0;color:#CC0000;} 
+
+[36mappserver_1  |[0m h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+
+[36mappserver_1  |[0m #header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+
+[36mappserver_1  |[0m background-color:#555555;}
+
+[36mappserver_1  |[0m #content{margin:0 0 0 2%;position:relative;}
+
+[36mappserver_1  |[0m .content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+
+[36mappserver_1  |[0m -->
+
+[36mappserver_1  |[0m </style>
+
+[36mappserver_1  |[0m </head>
+
+[36mappserver_1  |[0m <body>
+
+[36mappserver_1  |[0m <div id="header"><h1>Server Error</h1></div>
+
+[36mappserver_1  |[0m <div id="content">
+
+[36mappserver_1  |[0m  <div class="content-container"><fieldset>
+
+[36mappserver_1  |[0m   <h2>502 - Web server received an invalid response while acting as a gateway or proxy server.</h2>
+
+[36mappserver_1  |[0m   <h3>There is a problem with the page you are looking for, and it cannot be displayed. When the Web server (while acting as a gateway or proxy) contacted the upstream content server, it received an invalid response from the content server.</h3>
+
+[36mappserver_1  |[0m  </fieldset></div>
+
+[36mappserver_1  |[0m </div>
+
+[36mappserver_1  |[0m </body>
+
+[36mappserver_1  |[0m </html>
+
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m   Local 4: JJSONCREDTL(J) :J
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Files
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m Stack : 
+[36mappserver_1  |[0m Application Server is Shutting Down. on FWSNOWDENCREDENTIAL:GETCREDENTIAL(FWSNOWDENCREDENTIAL.PRW) 13/10/2020 16:57:53
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [build: 7.00.191205P-20201012]
+[36mappserver_1  |[0m [environment: ENVIRONMENT]
+[36mappserver_1  |[0m [thread: 16]
+[36mappserver_1  |[0m [rpodb: SQLITE]
+[36mappserver_1  |[0m [localfiles: CTREE]
+[36mappserver_1  |[0m [remark: ]
+[36mappserver_1  |[0m [threadtype: JobThread]
+[36mappserver_1  |[0m Called from FWSNOWDENENTRIE:SENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53 line : 418
+[36mappserver_1  |[0m Called from FWSNOWDENENTRIE:PREPAREANDSENDENTRIETOSNOWDEN(FWSNOWDENENTRIE.PRW) 13/10/2020 16:57:53 line : 363
+[36mappserver_1  |[0m Called from FWERRSNOWDEN(FWSNOWDENERRORLOG.PRW) 13/10/2020 16:57:54 line : 54
+[36mappserver_1  |[0m -------------------------------------------------------*/
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread    16] JOB Thread finished [-FWERRSNOWDEN]
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6][Thread Priority 20] Terminated Sended for 0 Live Threads 0
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6][Thread Priority 20] Terminated Successfully
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6][Thread Priority XX] Finishing All Other Threads...
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6][Thread Priority XX] Terminated Sended for 0 Live Threads 0
+[36mappserver_1  |[0m 
+[36mappserver_1  |[0m [INFO ][SERVER] [Thread 6] All Threads Finished Successfully 
+[36mappserver_1  |[0m [17/10/2020 19:47:06] APPLICATION END.
