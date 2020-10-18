@@ -1,13 +1,13 @@
 version: "3.8"
 
 services:
-  # appserver:
-  #   image: tgmti/totvs-appserver
-  #   ports:
-  #     - "1234:1234"
-  #     - "8080:80"
-  #     - "8081:81"
-  #   env_file: .env
+  appserver:
+    image: tgmti/totvs-appserver
+    ports:
+      - "1234:1234"
+      - "8080:80"
+      - "8081:81"
+    env_file: .env
     volumes:
       - type: bind
         source: ./totvs_volume/apo
